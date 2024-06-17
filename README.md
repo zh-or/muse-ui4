@@ -1,3 +1,4 @@
+## 挺好的库, 丢了可惜, 改造下支持vue3
 
 <p align="center">
   <a href="https://muse-ui.org" target="_blank">
@@ -5,7 +6,7 @@
   </a>
 </p>
 
-<h1 align="center">Muse-UI [不再维护]</h1>
+<h1 align="center">Muse-UI4</h1>
 
 <p align="center">
   <a href="https://material.io/">Material Design</a>
