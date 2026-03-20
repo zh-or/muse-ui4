@@ -48,78 +48,78 @@ import * as Colors from './theme/colors';
 
 const version = '__VERSION__';
 const components = {
-  Alert, AppBar, AutoComplete, Avatar,
-  Badge, BottomNav, BottomSheet, Breadcrumbs, Button,
-  Card, Carousel, Checkbox, Chip,
-  DataTable, DateInput, Dialog, Divider, Drawer,
-  ExpansionPanel, Form, Grid, GridList, Helpers, Icon,
-  LoadMore, List, Menu,
-  Pagination, Paper, Picker, Popover, Progress, Radio,
-  Select, SlidePicker, Slider, Snackbar, Stepper, SubHeader, Switch,
-  Tabs, TextField, Tooltip
+    Alert, AppBar, AutoComplete, Avatar,
+    Badge, BottomNav, BottomSheet, Breadcrumbs, Button,
+    Card, Carousel, Checkbox, Chip,
+    DataTable, DateInput, Dialog, Divider, Drawer,
+    ExpansionPanel, Form, Grid, GridList, Helpers, Icon,
+    LoadMore, List, Menu,
+    Pagination, Paper, Picker, Popover, Progress, Radio,
+    Select, SlidePicker, Slider, Snackbar, Stepper, SubHeader, Switch,
+    Tabs, TextField, Tooltip
 };
 
-function install (Vue) {
-  Object.keys(components).forEach((key) => {
-    Vue.use(components[key]);
-  });
+function install(Vue) {
+    Object.keys(components).forEach((key) => {
+        Vue.use(components[key]);
+    });
 }
 
 if (typeof window !== 'undefined' && window.Vue) install(window.Vue);
 
 export {
-  version,
-  Colors,
-  Alert,
-  AppBar,
-  AutoComplete,
-  Avatar,
-  Badge,
-  BottomNav,
-  BottomSheet,
-  Breadcrumbs,
-  Button,
-  Card,
-  Carousel,
-  Checkbox,
-  Chip,
-  DateInput,
-  DataTable,
-  Dialog,
-  Divider,
-  Drawer,
-  ExpansionPanel,
-  Form,
-  Grid,
-  GridList,
-  Helpers,
-  Icon,
-  List,
-  LoadMore,
-  Menu,
-  Pagination,
-  Paper,
-  Picker,
-  Popover,
-  Progress,
-  Radio,
-  Select,
-  SlidePicker,
-  Slider,
-  Snackbar,
-  Stepper,
-  SubHeader,
-  Switch,
-  Tabs,
-  TextField,
-  Tooltip,
-  theme,
-  install
+    version,
+    Colors,
+    Alert,
+    AppBar,
+    AutoComplete,
+    Avatar,
+    Badge,
+    BottomNav,
+    BottomSheet,
+    Breadcrumbs,
+    Button,
+    Card,
+    Carousel,
+    Checkbox,
+    Chip,
+    DateInput,
+    DataTable,
+    Dialog,
+    Divider,
+    Drawer,
+    ExpansionPanel,
+    Form,
+    Grid,
+    GridList,
+    Helpers,
+    Icon,
+    List,
+    LoadMore,
+    Menu,
+    Pagination,
+    Paper,
+    Picker,
+    Popover,
+    Progress,
+    Radio,
+    Select,
+    SlidePicker,
+    Slider,
+    Snackbar,
+    Stepper,
+    SubHeader,
+    Switch,
+    Tabs,
+    TextField,
+    Tooltip,
+    theme,
+    install
 };
 export default {
-  version,
-  install,
-  theme,
-  Colors,
-  ...components
+    version,
+    install,
+    theme,
+    Colors,
+    ...components
 };
